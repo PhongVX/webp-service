@@ -1,0 +1,8 @@
+[Unit]
+Description=Webp Converter
+
+[Service]
+ExecStart=/home/vxphong/scripts/monitor-file-creation.sh
+
+[Install]
+WantedBy=multi-user.target
